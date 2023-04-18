@@ -30,7 +30,7 @@
     
 5. After all the graph datasets are created properly, run main.py. The graph datasets are loaded through dataloader.py and the model is called through model.py
 ```
-### Miscellenous 
+### Miscellaneous 
 During the course of this project, I have accumulated many small and miscellaneous code snippets, some of which I created myself and others that I collected from various sources. I have organized them all into a folder labeled 'Misc.' If you are curious, please feel free to take a look.
 ### Citation
 
