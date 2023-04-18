@@ -1,6 +1,6 @@
 # GraphECGNet
 
-*In this respect, our paper has the following contributions:*
+**In this respect, our paper has the following contributions:**
 
 - A practical approach to detect edges of waveform in ECG images, using the Sobel operator.
 
@@ -8,7 +8,7 @@
 
 - An empirical evaluation on the two real ECG datasets to compare our proposed model with two state-of-the-art approaches using convolutional neural networks (ResNet26D and ConvNet).
 
-```
+
 # File Structure and Working procedure
 ```
 1. Fist, convert ECG signals from PTB-XL database to images using signal2image.py
@@ -19,15 +19,20 @@
   <data_file> can be:
     
     4.1. A--> adjancency matrix 
+    
     4.2. graph_indicator--> graph-ids of all node 
+    
     4.3. graph_labels--> labels for all graph 
+    
     4.4. node_attributes--> attribute(s) for all node 
+    
     5.5. node_labels--> labels for all node
+    
 5. After all the graph datasets are created properly, run main.py. The graph datasets are loaded through dataloader.py and the model is called through model.py
 ```
 
 # Citation
-We have published our work entitled as "Edge detection and graph neural networks to classify mammograms: A case study with a dataset from Vietnamese patients" under the "Applied Soft Computing Journal". If this repository helps you in your research in any way, please cite our paper:
+
 ```bibtex
 @article{DUONG2023120107,
 title = {Fusion of edge detection and graph neural networks to classifying electrocardiogram signals},
