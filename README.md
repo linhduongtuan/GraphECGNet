@@ -49,4 +49,4 @@ abstract = {The analysis of electrocardiogram (ECG) signals are among the key fa
 ```
 ### Latest DOI
 
-[![DOI](https://doi.org/10.1016/j.eswa.2023.120107)](https://doi.org/10.1016/j.eswa.2023.120107)
+[![DOI](https://zenodo.org/badge/168799526.svg)](https://doi.org/10.1016/j.eswa.2023.120107)
