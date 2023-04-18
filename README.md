@@ -1,15 +1,15 @@
 # GraphECGNet
 
-**In this respect, our paper has the following contributions:**
+### **In this respect, our paper has the following contributions:**
 
-- A practical approach to detect edges of waveform in ECG images, using the Sobel operator.
+- **A practical approach to detect edges of waveform in ECG images, using the Sobel operator.**
 
-- A workable solution to the classification of heart diseases, deploying GNN techniques on ECG signals. To the best of our knowledge, our study is the first attempt to deploy GNNs in automatically classifying ECG signals for detecting heart problems.
+- **A workable solution to the classification of heart diseases, deploying GNN techniques on ECG signals. To the best of our knowledge, our study is the first attempt to deploy GNNs in automatically classifying ECG signals for detecting heart problems.**
 
-- An empirical evaluation on the two real ECG datasets to compare our proposed model with two state-of-the-art approaches using convolutional neural networks (ResNet26D and ConvNet).
+- **An empirical evaluation on the two real ECG datasets to compare our proposed model with two state-of-the-art approaches using convolutional neural networks (ResNet26D and ConvNet).**
 
 
-# File Structure and Working procedure
+### File Structure and Working procedure
 ```
 1. Fist, convert ECG signals from PTB-XL database to images using signal2image.py
 2. Then, apply edge detection accroding to the class-number: edge_transformation.py
@@ -30,8 +30,9 @@
     
 5. After all the graph datasets are created properly, run main.py. The graph datasets are loaded through dataloader.py and the model is called through model.py
 ```
-
-# Citation
+### Miscellenous 
+During the course of this project, I have accumulated many small and miscellaneous code snippets, some of which I created myself and others that I collected from various sources. I have organized them all into a folder labeled 'Misc.' If you are curious, please feel free to take a look.
+### Citation
 
 ```bibtex
 @article{DUONG2023120107,
